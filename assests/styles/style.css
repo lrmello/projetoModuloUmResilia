@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/fulbo');
+
+/*cabeçalho*/
+.topo {
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.links,
+ul,
+li {
+    padding-right: 8px;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(209, 192, 192);
+}
+
+a:hover {
+    color: black;
+}
+
+
+/*fundo*/
+body {
+    background-color: #A0522D;
+    color: #C0C0C0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*corpo do site*/
+.imagem {
+    border-style: none;
+    flex-direction: row;
+}
+
+.subimagem {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* deixar a imagem centralizada da página principal */
+.imagemini {
+    margin-left: 0;
+    border-radius: 50%;
+    width: auto;
+    height: 400px;
+}
+
+
+/* Scroll da página */
+html {
+    scroll-behavior: smooth;
+}
+
+/*fonte central da página*/
+.fonte {
+    font-family: Fulbo, sans-serif;
+    font-size: 17px;
+}
+
+/*texto tamanho das páginas*/
+.texto {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* página hobbies */
+.textohobbies {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 100%;
+
+}
+
+.secaohobbies {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hobbies {
+    flex-direction: row;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemhobbies {
+    height: 280px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+footer {
+    margin-top: 8%;
+    text-align: center;
+}
+
+/* página contatos */
+.formulario {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contatos {
+    align-items: center;
+    text-align: center;
+}
+
+.listacontatos {
+    align-items: center;
+    text-align: center;
+    display: inline;
+    width: 10px;
+}
+
+.tamanhoimagem {
+    width: 20px;
+}
+
+.textocontato {
+    align-items: center;
+}
